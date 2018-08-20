@@ -22,3 +22,4 @@ Route::get('/mensagens', 'MensagemController@index');
 Route::get('/atividades/{id}', 'AtividadeController@show');
 Route::get('/mensagens/{id}', 'MensagemController@show');
 
+Route::get ('atividades/create','AtividadeController@create');
